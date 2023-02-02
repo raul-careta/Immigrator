@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu-hamburguer.css">
+    <title>Immigrator</title>
+</head>
+
+<body>
+    <div id="preloader"><span></span></div>
+    <header>
+        <h2>Immigrator</h2>
+        <nav class="hide768px">
+            <a href="">Planos</a>
+            <a href="">Viagens</a>
+            <a href="">Contato</a>
+            <a href="">Saiba mais</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Viva onde e como quiser</h1>
+        <form>
+            <h3>Fale conosco</h3>
+            <div class="email"><label for="email">
+                    <p>Email:</p>
+                </label>
+                <input name="email" class="input" id="email" type="email">
+            </div>
+            <div class="telefone"><label for="telefone">
+                    <p>Telefone:</p>
+                </label>
+                <input name="telefone" class="input" id="telefone" type="tel" maxlength="8">
+            </div>
+            <div class="nome"><label for="nome">
+                    <p>Nome:</p>
+                </label>
+                <input name="nome" class="input" id="nome" type="text">
+            </div>
+            <div class="textarea-container">
+                <label for="textArea">
+                    <p class="textarea-text">Nos diga onde deseja viver:</p>
+                </label>
+                <textarea name="mensagemDoUsuario" id="textArea"></textarea>
+            </div>
+            <button>Enviar</button>
+        </form>
+        <!-- Menu 2 início------------------------------------------------->
+        <nav class="nav-hamburguer">
+            <input id="checkbox2" type="checkbox" class="menu-checkbox2">
+            <label for="checkbox2" class="menu-label2">
+                <div class="menu-lines2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </label>
+            <ul class="lista2">
+                <li><a href="">Planos</a></li>
+                <li><a href="">Viagens</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Saiba mais</a></li>
+            </ul>
+        </nav>
+        <!-- Menu 2 fim------------------------------------------------->
+    </main>
+    <footer>
+        <p>Nenhum direito reservado &copy</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
